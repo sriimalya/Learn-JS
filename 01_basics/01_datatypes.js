@@ -31,3 +31,19 @@ console.log(id === anotherId); // false
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+// RETURN TYPES
+
+// Primitive Datatypes
+    //    Number => number
+    //    String  => string
+    //    Boolean  => boolean
+    //    null  => object
+    //    undefined  =>  undefined
+    //    Symbol  =>  symbol
+    //    BigInt  =>  bigint
+
+// Non-primitive Datatypes
+    //    Arrays  =>  object
+    //    Function  =>  function
+    //    Object  =>  object
