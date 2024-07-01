@@ -12,6 +12,11 @@ let age = 18
 let isLoggedIn = false
 let state;
 
+const id = Symbol('123')
+const anotherId = Symbol('123')
+ 
+console.log(id === anotherId); // false
+
 // primitive datatypes
 // number => 2 to power 53
 // bigint => for large numbers
@@ -21,8 +26,8 @@ let state;
 // undefined => kindda place holder for a value which is not defined yet (type = undefined)
 // symbol => unique
 
-
-// object
+// Reference(non primitive)
+// array, object, function
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
