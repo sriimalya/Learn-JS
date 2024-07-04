@@ -34,7 +34,7 @@ console.log(typeof null); // object
 
 // RETURN TYPES
 
-// Primitive Datatypes
+// Primitive Datatypes(Stack->copy of variable)
     //    Number => number
     //    String  => string
     //    Boolean  => boolean
@@ -43,7 +43,7 @@ console.log(typeof null); // object
     //    Symbol  =>  symbol
     //    BigInt  =>  bigint
 
-// Non-primitive Datatypes
+// Non-primitive Datatypes(Heap memory-> reference to the same variable)
     //    Arrays  =>  object
     //    Function  =>  function
     //    Object  =>  object
