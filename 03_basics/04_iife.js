@@ -8,7 +8,7 @@
     // named IIFE
     console.log(`DB CONNECTED`);
 })();
-//; semicolon is necessary toexecute multiple iife
+//; semicolon is necessary to execute multiple iife
 
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
