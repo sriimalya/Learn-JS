@@ -1,3 +1,6 @@
+// When user.arrowFunction() is defined, its surrounding lexical scope is the global context (or module context in Node.js), not the user object. Therefore, this inside the arrow function refers to the global this, not user.
+
+
 const user = {
     username: "malya",
     price: 999,
@@ -9,6 +12,7 @@ const user = {
 
     welcomeMessage2: () =>{
         console.log(this.username); //undefined
+        //  because this does not refer to the 'user' object but to the 'global' context, which does not have a username property
     }
 
 }
