@@ -3,11 +3,18 @@ const user = {
     price: 999,
 
     welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);
+        console.log(this.username) // malya
         console.log(this);
+    },
+
+    welcomeMessage2: () =>{
+        console.log(this.username); //undefined
     }
 
 }
+
+user.welcomeMessage();
+user.welcomeMessage2();
 
 // this->current context
 
